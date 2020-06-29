@@ -1,4 +1,40 @@
+<h1 align="center"> Robo-Friends </h1> <br>
+
+<table>
+	<tr>
+		<td>
+			Robo Friends in a ReactJS web application which is a Card UI and have different users information in card form and we can search dynamically through those cards by name of user.
+		</td>
+	</tr>
+</table>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -m 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+
+# To run this project
+
+1. Clone this repo
+2. Run `npm install`
+3. Run `npm start`
+
+## Built with
+
+- [ReactJS](https://reactjs.org/) - React makes it easy to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+
+- [RoboHash](https://robohash.org/) - Robohash is a web service that provides unique, robot/alien/monster/whatever images for any random text. 
 
 ## Available Scripts
 
