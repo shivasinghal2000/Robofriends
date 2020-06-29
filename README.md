@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 <h1 align="center"> Robo-Friends </h1> <br>
 
@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		</td>
 	</tr>
 </table>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Development
 
