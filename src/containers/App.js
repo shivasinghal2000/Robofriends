@@ -3,6 +3,7 @@ import CardList from '../components/CardList.js'
 import SearchBox from '../components/SearchBox.js'
 import './App.css'
 import Scroll from '../components/Scroll.js'
+import ErrorBoundary from "../components/ErrorBoundary.js";
 class App extends React.Component {
   constructor () {
     super()
@@ -33,14 +34,16 @@ class App extends React.Component {
       }
       else 
     {return (
-      <div className='tc'>
-        <h1 className='f1'>RoboFriends</h1>
-        <SearchBox SearchChange={this.onSearchChange} />
-        <Scroll>
-        <CardList robots={filteredRobots}/>
-        </Scroll>
-      </div>
-    )}
+       <div className="tc">
+         <h1 className="f1">RoboFriends</h1>
+         <SearchBox SearchChange={this.onSearchChange} />
+         <Scroll>
+           <ErrorBoundary>
+             <CardList robots={filteredRobots} />
+           </ErrorBoundary>
+         </Scroll>
+       </div>
+     );}
   }
 }
 
